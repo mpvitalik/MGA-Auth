@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M6</version>
+            <version>3.0.0-M5</version>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -53,7 +53,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M6</version>
+                <version>3.0.0-M5</version>
                 <configuration>
                     <testFailureIgnore>false</testFailureIgnore>
                     <argLine>
@@ -85,7 +85,7 @@
                 <version>2.11.2</version>
                 <configuration>
                     <reportVersion>2.4.1</reportVersion>
-                    <allureDownloadUrl>https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.4.1/allure-2.4.1.zip</allureDownloadUrl>
+                    <allureDownloadUrl>https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3-javadoc.jar</allureDownloadUrl>
                 </configuration>
             </plugin>
         </plugins>
