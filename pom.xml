@@ -85,6 +85,7 @@
                 <version>2.11.2</version>
                 <configuration>
                     <reportVersion>2.4.1</reportVersion>
+                    <allureDownloadUrl>https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.4.1/allure-2.4.1.zip</allureDownloadUrl>
                 </configuration>
             </plugin>
         </plugins>
