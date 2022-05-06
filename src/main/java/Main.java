@@ -18,7 +18,7 @@ public class Main {
         password.sendKeys("qqq111qqq");
         button.click();
 
-        Thread.sleep(3000);
+        Thread.sleep(7000);
 
         driver.quit();
 
